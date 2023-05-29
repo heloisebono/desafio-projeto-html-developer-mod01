@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 1 - Desenvolvedor Html</title>
+</head>
+
+<body
+    style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+
+    <h1 id="inicio" style="text-align:center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        Primeiros Passos com HTML - Módulo 1</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#historia-dos-computadores">História dos Primeiros Computadores</a></li>
+        <li><a href="#diferenca-client-server">Diferença entre Client e Server</a></li>
+        <li><a href="#estrutura-html">Estrutura HTML: Tags, Textos e Links</a></li>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+    <h2 id="historia-dos-computadores">História dos Primeiros Computadores</h2>
+    <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+    <p>Embora desde a antiguidade já existam aparatos para cálculos (um conhecido exemplo é o ábaco), e o conceito de
+        computador programável ter sido criado por Charles Babbage e o primeiro algoritmo ter sido escrito por Ada
+        Lovelace no século 19, é na década de 1940 que surge a <strong>Primeira Geração</strong> dos <mark>computadores
+            eletrônicos</mark>. <br>
+        Entre eles estão o <strong>Harvard Mark I</strong>, que é considerado o primeiro computador; o
+        <strong>Colossus</strong>, criado para Cripto Análises pela Alemanha em meados da Segunda Guerra Mundial e o
+        <strong><abbr title="“Eletronic Numerical Integrator And Computer”">ENIAC</abbr></strong>, criado pelos Estados
+        Unidos também em meados da Segunda Guerra sendo ele <mark>mais automático</mark>
+        que seu antecessor, o Mark I.<br><br>
+
+        No intervalo entre os anos de 1959 a 1965 os computadores a válvula foram perdendo espaço para os computadores
+        operados com <mark>transistores</mark>. Os novos dispositivos ficaram significativamente menores, sendo uma
+        grande evolução
+        para a época. Essa é a chamada <strong>Segunda Geração</strong>.<br><br>
+
+        Já a <strong>Terceira Geração</strong> é marcada pelos <mark>circuitos integrados</mark> (chips), o que ocorreu
+        entre 1965 a
+        1970. Essa tecnologia diminuiu ainda mais o tamanho dos computadores e aumentou a capacidade de
+        processamento.<br>
+
+        A <strong>Quarta Geração</strong>, que data de 1971 até os dias atuais, é conhecida pela melhoria dos chips e
+        surgimento dos <mark> microprocessadores</mark> e veio evoluindo até as tecnologias que conhecemos hoje. A
+        interface gráfica,
+        a revolução do mouse, os computadores pessoais, notebooks e até os smartphones são progressos que caracterizam
+        essa geração, também marcada pela popularização e disseminação do uso da tecnologia.<br><br>
+
+        A <strong>Quinta Geração</strong> é representada pela <abbr title="“Inteligência Artificial”">IA</abbr>,
+        Criptomoedas, Metaverso e
+        Blockchain. Essas tecnologias estão sendo introduzidas nos últimos anos e evoluindo vertiginosamente.<br>
+    </p>
+
+
+    <h2 id="diferenca-client-server">Diferença entre Client e Server</h2>
+    <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+    <p>
+        A estrutura da web é basicamente composta pelo lado <strong>Cliente</strong> (Client) e lado
+        <strong>Servidor</strong> (Server) que se comunicam através da internet (protocolo <abbr
+            title="“Hyper Text Transfer Protocol”">HTTP</abbr>).<br>
+        O cliente, ou usuário, fazendo uso de um dispositivo como um computador ou smartphone por exemplo, acessa um
+        site que está hospedado em um servidor. Esse site é formado pelos elementos <abbr
+            title="“Hyper Text Markup Language”">HTML</abbr>, <abbr title="“Cascadind Style Sheets”">CSS</abbr>,
+        Javascript e outros
+        arquivos como fotos ou vídeos. Esses elementos são organizados e configurados para serem visualizados em um
+        navegador (browser).<br>
+        O servidor armazena informações em bancos de dados, o usuário faz o requerimento dessas informações e o servidor
+        retorna com essas informações para o cliente. <br>
+        As linguagens que são executadas nos lados tanto do cliente quando do lado do servidor diferem entre si. O lado
+        do servidor é chamado de <strong><i>back-end</i></strong> e o lado do cliente é chamado de
+        <strong><i>front-end</i></strong>.
+        Entre as linguagens back-end estão o <strong><abbr title="“Hypertext Preprocessor”">PHP</abbr>, Ruby, Java, C#,
+            e o Javascript</strong> <i>(que também é utilizado no front-end)</i>.
+        Já as linguagens front-end, as que são executadas pelo navegador são as já citadas <strong>CSS, o Javascript e o
+            HTML</strong> <i>(que não é uma linguagem de programação em si, e sim uma linguagem de marcação de
+            texto)</i> .
+    </p>
+
+    <h2 id="estrutura-html">Estrutura HTML: Tags, Textos e Links</h2>
+    <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+    <p>
+        O acrônimo HTML, em inglês, HyperText Markup Language, significa Linguagem de Marcação de Hipertexto.
+        A estrutura básica de um documento HTML é começa com a abertura da tag <strong>
+            <<i>html</i>>
+        </strong> e dentro dessa tag vão os elementos <strong>
+            <<i>head</i>>
+        </strong> e <strong>
+            <<i>body</i>>
+        </strong>. Na tag <strong>head</strong> vão os elementos que carregam antes de exibir a página e na tag
+        <strong>body</strong>> vão todos os elementos que irão aparecer na tela para o usuário.
+        Dentro da tag <strong>body</strong> podem ser utilizadas muitas outras tags que possuem atributos que podem
+        formatar e organizar seu texto, inserir imagens e links (externos ou dentro do próprio site), inserir campos de
+        entrada de informações e muitas outras funcionalidades.
+
+    <h3>Atributos das Tags</h3>
+    <p>
+        Atributos são informações que passamos para a Tag para que ela se comporte de forma esperada. São exemplos de
+        atributos:<br><br>
+        <strong>id:</strong> identifica um elemento que pode ser manipulado no javascript<br>
+        <strong>style:</strong> tag mais voltada para o CSS, estiliza o seu texto direto no HTML, alterando cor, fonte,
+        tamanho, etc.<br>
+        <strong>class:</strong> parecida com a tag id.<br>
+        <strong>input:</strong> insere um campo de entrada de dados, podendo ser numerico, alfanumérico, ou até mesmo um
+        seletor de cores.<br>
+        <strong>img src:</strong> insere uma imagem, que pode vir da pasta do site ou até mesmo de outro lugar da
+        internet
+
+
+    </p>
+
+    <h3>Textos</h3>
+    <p>
+        Existem as tags que são voltadas para o texto de um site. Algumas delas são:<br><br>
+        <strong>
+            <<i>h1</i>>
+        </strong> a <strong>
+            <<i>h6</i>>
+        </strong>:
+        indicam títulos e subtítulos, sendo h1 a de maior tamanho, h2 menor que a h1 e assim por diante. São usadas para
+        indicar títulos e subtítulos.<br>
+        <strong>
+            <<i>p</i>>
+        </strong>:
+        indica o parágrafo, é onde vai o "corpo" do texto.<br>
+        <strong>
+            <<i>br</i>>
+        </strong>:
+        quebra de linha<br>
+        <strong>
+            <<i>strong</i>>
+        </strong>:
+        coloca o texto em <strong>negrito</strong><br>
+        <strong>
+            <<i>u</i>>
+        </strong>:
+        <u>sublinha o texto</u>.<br>
+        <strong>
+            <<i>i</i>>
+        </strong>:
+        coloca o texto em <i>itálico</i>.<br>
+        <strong>
+            <<i>mark</i>>
+        </strong>:
+        marca o texto com cor <mark>amarela</mark><br>
+        <strong>
+            <<i>del</i>>
+        </strong>:
+        insere um texto com uma parte <del>deletada</del> e uma nova parte inserida.
+    </p>
+
+
+    <h2>Links</h2>
+    <small><a href="#inicio">(Voltar ao Inicio)</a></small><br>
+    <p>
+        Os links servem para proporcionar a navegação, sendo dentro de um mesmo site ou externamente, inserindo links
+        direcionados para outros sites.<br>
+        A tag e o atributo que se refere aos links é indicada por <strong> <<i>a href=" "</i>>
+        </strong>.
+    </p>
+
+
+    <h2 id="referencias">Referências</h2>
+    <small>(Voltar ao início)</small>
+    <p>
+        <a href="https://web.dio.me/track/formacao-html-web-developer" target="_blank">Dio.me. Formação Html Web
+            Developer</a><br>
+        <a href="https://gizmodo.uol.com.br/a-historia-do-computador-em-10-topicos/" target="_blank">Gizmodo. A incrível
+            história do computador em 10 tópicos</a><br>
+        <a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html" target="_blank">Github.
+            Estrutura Básica HTML</a>
+    </p>
+    <hr />
+    <footer style="text-align: center;">Desenvolvido orgulhosamente por Heloise Bono para o módulo 1 da <u>Formação HTML
+            Developer</u> da <strong>Dio.me</strong>!</footer>
+
+
+</body>
+
+</html>
